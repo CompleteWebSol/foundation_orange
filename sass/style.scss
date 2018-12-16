@@ -1,0 +1,58 @@
+@charset "utf-8";
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.5.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+
+// --- Settings ---
+// import your own `settings` here or
+// import and modify the default settings through
+@import "settings";
+@import '../node_modules/foundation-sites/scss/foundation';
+@import '../node_modules/motion-ui/src/motion-ui';
+
+@include foundation-everything($flex: true);
+
+// Global.
+//@import 'variables';
+//@import 'mixins';
+
+// General.
+//@import 'site-structure';
+//@import 'general';
+//@import 'site-structure';
+//@import 'navigation';
+//@import 'content';
+//@import 'comments';
+
+// Nodes.
+//@import 'nodes/page';
+//@import 'nodes/homepage';
+//@import 'nodes/landing-page';
+//@import 'nodes/blog-post';
+
+// Paragraphs.
+//@import 'paragraphs/accordion';
+//@import 'paragraphs/cta';
+//@import 'paragraphs/content-strap';
+//@import 'paragraphs/content-strap-column';
+//@import 'paragraphs/cta-strap';
+//@import 'paragraphs/strap';
+//@import 'paragraphs/carousel';
+//@import 'paragraphs/content-carousel';
+//@import 'paragraphs/logo';
+//@import 'paragraphs/logo-carousel';
+//@import 'paragraphs/image-content';
+//@import 'paragraphs/image-strap';
+//@import 'paragraphs/webform-content';
+//@import 'paragraphs/gallery';
+//@import 'paragraphs/tabs';
+//@import 'paragraphs/webform';
+
+// CSS Effects.
+//@import 'effects';
+
+// Live CSS.
+//@import 'live-css';
